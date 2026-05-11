@@ -54,7 +54,6 @@ The project focuses on stock price trends, data cleaning, visualization, daily r
 - NumPy
 - Matplotlib
 - SQL
-- Jupyter Notebook / Google Colab
 
 ---
 
