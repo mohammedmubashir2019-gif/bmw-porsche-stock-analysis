@@ -151,11 +151,11 @@ bmw_porsche_project/
 
 ## How to Run
 
-1. Open the notebook in Google Colab or Jupyter Notebook
-2. Upload the required CSV datasets
-3. Run all cells step by step
-4. View generated graphs and analysis results
 
+1. Clone the repository
+2. Install required Python libraries:
+   ```bash
+   pip install pandas numpy matplotlib
 ---
 
 ## License
