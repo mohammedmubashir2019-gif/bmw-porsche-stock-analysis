@@ -156,6 +156,10 @@ bmw_porsche_project/
 2. Install required Python libraries:
    ```bash
    pip install pandas numpy matplotlib
+3. Open the project in VS Code
+4. Run bmw_project.py
+5. Execute sql_queries.sql for SQL analysis
+6. View generated graphs and analysis results
 ---
 
 ## License
