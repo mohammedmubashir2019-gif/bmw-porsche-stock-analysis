@@ -2,7 +2,9 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![NumPy](https://img.shields.io/badge/NumPy-Computing-blueviolet)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![SQL](https://img.shields.io/badge/SQL-Database-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Author
@@ -10,17 +12,38 @@ Mohammed Mubashir Ahmed
 
 ---
 
-## Overview
+# BMW vs Porsche Stock Market Analysis
 
-This project analyzes and compares BMW and Porsche stock market data using Python, Pandas, Matplotlib, and SQL.
+This project analyzes and compares BMW and Porsche stock market data using Python, Pandas, Matplotlib, and SQL.  
 
-The project includes:
+The project focuses on stock price trends, data cleaning, visualization, daily returns, correlation analysis, and comparative performance analysis between both companies.
 
-- Data Cleaning
+---
+
+## Project Objectives
+
+- Analyze BMW and Porsche stock market performance
+- Compare stock price movements between companies
+- Perform exploratory data analysis (EDA)
+- Visualize stock trends using graphs
+- Identify relationships between stock variables
+- Generate insights using SQL queries
+
+---
+
+## Features Implemented
+
+- Data Cleaning and Preprocessing
+- Missing Value Handling
+- Duplicate Data Checking
+- Data Type Conversion
 - Exploratory Data Analysis (EDA)
-- Correlation Analysis
-- Data Visualization
-- SQL-Based Queries
+- Histogram Analysis
+- Correlation Heatmap
+- Daily Returns Calculation
+- Comparative Stock Analysis
+- SQL-Based Analysis
+- Data Visualization with Matplotlib
 
 ---
 
@@ -31,15 +54,60 @@ The project includes:
 - NumPy
 - Matplotlib
 - SQL
+- Jupyter Notebook / Google Colab
+
+---
+
+## Visualizations Created
+
+### 1. BMW Stock Histogram
+Shows the distribution of BMW stock prices.
+
+### 2. Porsche Stock Histogram
+Displays the frequency distribution of Porsche stock values.
+
+### 3. BMW vs Porsche Comparison Graph
+Compares stock price trends between BMW and Porsche.
+
+### 4. Correlation Heatmap
+Visualizes relationships between numerical variables in the dataset.
+
+### 5. Daily Returns Graph
+Analyzes daily percentage change in stock prices.
+
+---
+
+## Analysis Performed
+
+- Stock Trend Analysis
+- Daily Return Analysis
+- Correlation Analysis
+- Comparative Market Analysis
+- Distribution Analysis
+- SQL Query Analysis
 
 ---
 
 ## Key Insights
 
-- BMW and Porsche stock prices show different market trends over time
-- Correlation analysis helps understand relationships between stock movements
-- Data visualization improves understanding of stock performance
-- Cleaned datasets provide more accurate analysis results
+- BMW and Porsche stocks exhibit different volatility patterns
+- Correlation analysis reveals relationships between stock metrics
+- Daily return calculations help identify market fluctuations
+- Visualizations improve understanding of stock performance trends
+- Cleaned datasets improve accuracy and reliability of analysis
+
+---
+
+## Skills Demonstrated
+
+- Data Analysis
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Python Programming
+- Data Visualization
+- SQL Querying
+- Statistical Analysis
+- Problem Solving
 
 ---
 
@@ -48,7 +116,9 @@ The project includes:
 - Build an interactive dashboard using Power BI or Tableau
 - Perform time-series forecasting on stock prices
 - Add machine learning models for stock prediction
-- Automate data collection using APIs
+- Automate stock data collection using APIs
+- Deploy the project as a web application
+- Add advanced financial indicators
 
 ---
 
@@ -80,6 +150,16 @@ bmw_porsche_project/
 
 ---
 
+## How to Run
+
+1. Open the notebook in Google Colab or Jupyter Notebook
+2. Upload the required CSV datasets
+3. Run all cells step by step
+4. View generated graphs and analysis results
+
+---
+
 ## License
 
 This project is licensed under the MIT License.
+
