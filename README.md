@@ -1,5 +1,10 @@
 # BMW vs Porsche Stock Market Analysis
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Author
 Mohammed Mubashir Ahmed
 
@@ -11,11 +16,11 @@ This project analyzes and compares BMW and Porsche stock market data using Pytho
 
 The project includes:
 
-- Data cleaning
+- Data Cleaning
 - Exploratory Data Analysis (EDA)
-- Correlation analysis
-- Data visualization
-- SQL-based stock queries
+- Correlation Analysis
+- Data Visualization
+- SQL-Based Queries
 
 ---
 
@@ -26,41 +31,24 @@ The project includes:
 - NumPy
 - Matplotlib
 - SQL
-- VS Code
-- Git & GitHub
 
 ---
 
-## Project Features
+## Key Insights
 
-### Data Cleaning
-- Removed missing values
-- Organized stock datasets
-- Created cleaned CSV files
+- BMW and Porsche stock prices show different market trends over time
+- Correlation analysis helps understand relationships between stock movements
+- Data visualization improves understanding of stock performance
+- Cleaned datasets provide more accurate analysis results
 
-### Exploratory Data Analysis
-- Stock price trends
-- Average stock prices
-- Trading volume analysis
-- Daily returns calculation
+---
 
-### Data Visualization
-The project generates:
+## Future Improvements
 
-- BMW closing price histogram
-- Porsche closing price histogram
-- BMW vs Porsche comparison chart
-- Correlation heatmap
-- Daily returns graph
-
-### SQL Analysis
-SQL queries included for:
-
-- Highest closing prices
-- Lowest closing prices
-- Average trading volume
-- Price filtering
-- Top 5 highest stock prices
+- Build an interactive dashboard using Power BI or Tableau
+- Perform time-series forecasting on stock prices
+- Add machine learning models for stock prediction
+- Automate data collection using APIs
 
 ---
 
@@ -71,22 +59,25 @@ bmw_porsche_project/
 │
 ├── Data/
 │   ├── BMW_Stock_Data.csv
-│   ├── porsche_stock_data.csv
+│   ├── Porsche_stock_data.csv
 │   ├── cleaned_bmw_data.csv
 │   ├── cleaned_porsche_data.csv
-│   └── images/
-│       ├── bmw_histogram.png
-│       ├── porsche_histogram.png
-│       └── bmw_porsche_sales.png
+│
+├── images/
+│   ├── bmw_histogram.png
+│   ├── porsche_histogram.png
+│   ├── bmw_porsche_sales.png
+│   ├── correlation_heatmap.png
+│   ├── daily_returns.png
 │
 ├── scripts/
-│   ├── bmw.project.py
-│   └── sql_queries.sql
+│   ├── bmw_project.py
+│   ├── sql_queries.sql
 │
-├── correlation_heatmap.png
-├── daily_returns.png
 ├── LICENSE
 └── README.md
+```
+
 ---
 
 ## License
